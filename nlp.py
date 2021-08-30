@@ -1,6 +1,6 @@
 import spacy
 
-nlp = spacy.load("NER_2.0")
+nlp = spacy.load("NER_3.0")
 
 
 def getEntities(text):
