@@ -2,11 +2,11 @@
 
  <nav class="navbar">
     <div class="logo">
-    <router-link to="/Home"><img class="icon" src="/src/assets/LUCA-logo.jpg" alt="Icon"></router-link>
+    <router-link to="/"><img class="icon" src="/src/assets/LUCA-logo.jpg" alt="Icon"></router-link>
     <router-link to="/"><img class="icon-small" src="/src/assets/LUCA-logo.jpg" alt="IconSmall"></router-link>
   </div>
     <div class="link2">
-      <router-link to="/AboutPage">About</router-link>
+      <router-link to="/about">About</router-link>
    </div>
   </nav>
 

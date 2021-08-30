@@ -1,12 +1,12 @@
 <template>
-  <div>
-    <MainMenu/>
-    <Home/>
-  </div>
+  <main>
+    <MainMenu />
+    <router-view />
+  </main>
 </template>
 
 <script setup>
-import Home from './components/Home.vue';
+import Home from './views/Home.vue';
 import MainMenu from "./components/MainMenu.vue";
 
     
