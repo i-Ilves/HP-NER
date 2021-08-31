@@ -11,8 +11,6 @@ def getEntities(text):
   entities = []
   
 
-
-
   for entity in text_document.ents:
     if entity.label_ == text['type']:
        if entity.text not in entities:
@@ -21,11 +19,3 @@ def getEntities(text):
 
   return entities
 
-'''   for entity in text_document.ents:
-    print(entity.text, entity.label_)
-    entities.append(entity.text)
-      
-  return entities '''
-'''     for entity in text_document.ents:      
-      if text['type'] == 'ALL':
-        entities.append(entity.text, entity.label_) '''
